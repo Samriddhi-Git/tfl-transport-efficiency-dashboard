@@ -8,7 +8,7 @@ An end-to-end data analytics project analyzing passenger journey volumes, season
 
 🔗 **[Click Here to View Live Tableau Dashboard](https://public.tableau.com/views/TfLTransportEfficiencyNetworkPerformanceAnalysis_17901889341470/Dashboard2?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)**
 
-![TfL Dashboard Preview](dashboard_preview.png)
+![TfL Dashboard Preview](Tlf transport dashboard.png)
 
 ---
 
