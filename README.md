@@ -8,7 +8,7 @@ An end-to-end data analytics project analyzing passenger journey volumes, season
 
 🔗 **[Click Here to View Live Tableau Dashboard](https://public.tableau.com/views/TfLTransportEfficiencyNetworkPerformanceAnalysis_17901889341470/Dashboard2?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)**
 
-![TfL Dashboard Preview](Tlf transport dashboard.png)
+![TfL Dashboard Preview](dashboard_preview.png)
 
 ---
 
@@ -24,11 +24,8 @@ An end-to-end data analytics project analyzing passenger journey volumes, season
 
 * **MySQL Data Pipeline:** Ingested raw TfL journey datasets and station GIS metadata. Created optimized SQL analytical views (`vw_tfl_journeys_by_mode`, `vw_tfl_annual_growth`) to transform wide period tables into time-series data structures.
 * **Executive KPI Tiles:** High-level summary cards displaying total network volume, bus share, and tube share with official TfL brand styling.
-* **Monthly Journey Trends:** Continuous line series tracking post-pandemic volume recovery and seasonal demand peaks.
-* **Station GIS Map:** Interactive spatial plot mapping 470+ London transit stations by zone and network.
-* **Annual Mode Breakdown:** Heatmap grid evaluating year-over-year passenger shifts across all modes.
 
-* ## 🛠️ Architecture & Tech Stack
+## 🛠️ Architecture & Tech Stack
 |📁 Raw TfL Data (.csv / .xlsx)
 |🐬 MySQL Workbench -
 Analytical Data Cleaning & Pipeline
@@ -56,3 +53,6 @@ Text
 │   └── station_gis_metadata.xlsx   # Spatial station coordinates & zones
 ├── 🖼️ dashboard_preview.png        # Preview thumbnail for README
 └── 📄 README.md                    # Project documentation
+* **Monthly Journey Trends:** Continuous line series tracking post-pandemic volume recovery and seasonal demand peaks.
+* **Station GIS Map:** Interactive spatial plot mapping 470+ London transit stations by zone and network.
+* **Annual Mode Breakdown:** Heatmap grid evaluating year-over-year passenger shifts across all modes.
