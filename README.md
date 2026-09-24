@@ -44,15 +44,14 @@ Interactive Visualizations & Spatial Mapping
 ## 📂 Repository Structure
 
 Text
-
-├── 📁 SQL/
-│   ├── 01_data_ingestion.sql       # Schema setup & data loading
-│   └── 02_analytical_views.sql     # Optimised views for Tableau integration
-├── 📁 Data/
-│   ├── raw_tfl_periods.csv         # Multi-modal passenger volume dataset
-│   └── station_gis_metadata.xlsx   # Spatial station coordinates & zones
-├── 🖼️ dashboard_preview.png        # Preview thumbnail for README
-└── 📄 README.md                    # Project documentation
+|📁 SQL-
+01_data_ingestion.sql       # Schema setup & data loading
+02_analytical_views.sql     # Optimised views for Tableau integration
+|📁 Data-
+raw_tfl_periods.csv         # Multi-modal passenger volume dataset
+station_gis_metadata.xlsx   # Spatial station coordinates & zones
+|🖼️ dashboard_preview.png        # Preview thumbnail for README
+|📄 README.md                    # Project documentation
 * **Monthly Journey Trends:** Continuous line series tracking post-pandemic volume recovery and seasonal demand peaks.
 * **Station GIS Map:** Interactive spatial plot mapping 470+ London transit stations by zone and network.
 * **Annual Mode Breakdown:** Heatmap grid evaluating year-over-year passenger shifts across all modes.
